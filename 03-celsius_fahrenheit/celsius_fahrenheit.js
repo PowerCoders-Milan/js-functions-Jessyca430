@@ -17,4 +17,7 @@ console.log(`${getFahrenheit(10)}`)
 
 
 // do the same thing starting from Fahrenheit to Celsius
+const multiplyByFiveNiths = number => number * 5/9
+const getCelsius = Fahrenheit => multiplyByFiveNiths(Fahrenheit - 32);
+console.log(getCelsius(59));
 
